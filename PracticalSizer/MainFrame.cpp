@@ -4,6 +4,20 @@
 #include <string>
 #include "Task.h"
 
+//----------------SETUP--------------------------------------START---
+//Create new project->Empty Project(c++/Windows/Console)
+
+//Property Manager->
+//Add Existing Property Sheets..->
+//wxWidgets folder->wxwidgets.props->open
+
+//Project Properties->
+//Config: All Config / Platforms : All Platforms :
+//->Linker->System ->
+//SubSystem->Windows(/ SUBSYSTEM:WINDOWS)
+
+//----------------SETUP--------------------------------------END---
+
 MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 //MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE & ~(wxRESIZE_BORDER | wxMAXIMIZE_BOX)) //<-- None Resizable Layout
 {
