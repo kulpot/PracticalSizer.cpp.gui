@@ -4,6 +4,8 @@
 #include <string>
 #include "Task.h"
 
+//C++ GUI Programming For Beginners | Episode 14 - Practical Sizer Example (To-Do List) //ref link:https://www.youtube.com/watch?v=OeMxrKdDkxc&list=PLFk1_lkqT8MbVOcwEppCPfjGOGhLvcf9G&index=16
+
 //----------------SETUP--------------------------------------START---
 //Create new project->Empty Project(c++/Windows/Console)
 
