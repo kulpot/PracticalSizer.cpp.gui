@@ -85,6 +85,10 @@ void MainFrame::CreateControls()
 
 }
 
+void MainFrame::SetupSizers()
+{
+}
+
 void MainFrame::BindEventHandlers()
 {
 	addButton->Bind(wxEVT_BUTTON, &MainFrame::OnAddButtonClicked, this);
