@@ -9,6 +9,7 @@ private:
 	//void OnResize(wxSizeEvent& evt);
 
 	void CreateControls();
+	void SetupSizers();
 	void BindEventHandlers();
 	void AddSavedTasks();
 
