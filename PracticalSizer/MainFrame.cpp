@@ -31,6 +31,7 @@ MainFrame::MainFrame(const wxString& title) : wxFrame(nullptr, wxID_ANY, title)
 	//Bind(wxEVT_SIZE, &MainFrame::OnResize, this);
 
 	CreateControls();
+	SetupSizers();
 	BindEventHandlers();
 	AddSavedTasks(); // important: must be after CreateControls();
 }
