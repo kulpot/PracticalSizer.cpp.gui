@@ -69,7 +69,8 @@ void MainFrame::CreateControls()
 	inputField = new wxTextCtrl(panel, wxID_ANY, "", wxDefaultPosition, wxDefaultSize, wxTE_PROCESS_ENTER);
 	//addButton = new wxButton(panel, wxID_ANY, "Add", wxPoint(600, 80), wxSize(100, 35));
 	addButton = new wxButton(panel, wxID_ANY, "Add");
-	checkListBox = new wxCheckListBox(panel, wxID_ANY, wxPoint(100, 120), wxSize(600, 400));
+	//checkListBox = new wxCheckListBox(panel, wxID_ANY, wxPoint(100, 120), wxSize(600, 400));
+	checkListBox = new wxCheckListBox(panel, wxID_ANY);
 	clearButton = new wxButton(panel, wxID_ANY, "Clear", wxPoint(100, 525), wxSize(100, 35));
 	
 	// (FOR BLURRINESS PROBLEM)->ProjectProperties->Manifest Tool->Input and Output->DPI Awareness->High DPI Aware->Apply
