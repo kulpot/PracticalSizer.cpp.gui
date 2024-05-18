@@ -93,6 +93,7 @@ void MainFrame::CreateControls()
 
 void MainFrame::SetupSizers()
 {
+	headlineText->Show(false);
 }
 
 void MainFrame::BindEventHandlers()
