@@ -144,6 +144,9 @@
     <ClInclude Include="MainFrame.h" />
     <ClInclude Include="Task.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="tasks.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
