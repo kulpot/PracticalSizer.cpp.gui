@@ -64,8 +64,9 @@ void MainFrame::CreateControls()
 	headlineText->SetFont(headlineFont);
 	//headlineText->SetBackgroundColour(*wxRED);
 	
-	inputField = new wxTextCtrl(panel, wxID_ANY, "",
-		wxPoint(100, 80), wxSize(495, 35), wxTE_PROCESS_ENTER);
+	//inputField = new wxTextCtrl(panel, wxID_ANY, "",
+	//	wxPoint(100, 80), wxSize(495, 35), wxTE_PROCESS_ENTER);
+	inputField = new wxTextCtrl(panel, wxID_ANY, "", wxDefaultPosition, wxDefaultSize, wxTE_PROCESS_ENTER);
 	addButton = new wxButton(panel, wxID_ANY, "Add", wxPoint(600, 80), wxSize(100, 35));
 	checkListBox = new wxCheckListBox(panel, wxID_ANY, wxPoint(100, 120), wxSize(600, 400));
 	clearButton = new wxButton(panel, wxID_ANY, "Clear", wxPoint(100, 525), wxSize(100, 35));
