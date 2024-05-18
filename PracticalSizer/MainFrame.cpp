@@ -94,6 +94,7 @@ void MainFrame::CreateControls()
 void MainFrame::SetupSizers()
 {
 	headlineText->Show(false);
+	inputField->Show(false);
 }
 
 void MainFrame::BindEventHandlers()
