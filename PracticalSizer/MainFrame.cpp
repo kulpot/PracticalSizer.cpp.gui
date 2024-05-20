@@ -100,6 +100,8 @@ void MainFrame::SetupSizers()
 	clearButton->Show(false);
 
 	wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
+
+	panel->SetSizer(mainSizer);
 }
 
 void MainFrame::BindEventHandlers()
