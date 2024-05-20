@@ -102,6 +102,7 @@ void MainFrame::SetupSizers()
 	wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
 
 	panel->SetSizer(mainSizer);
+	mainSizer->SetSizeHints(this);
 }
 
 void MainFrame::BindEventHandlers()
