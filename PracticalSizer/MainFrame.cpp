@@ -107,6 +107,7 @@ void MainFrame::SetupSizers()
 	inputSizer->Add(addButton);
 
 	mainSizer->Add(inputSizer, wxSizerFlags().Expand());
+	mainSizer->Add(checkListBox, wxSizerFlags().Expand().Proportion(1));
 
 	panel->SetSizer(mainSizer);
 	mainSizer->SetSizeHints(this);
