@@ -94,8 +94,8 @@ void MainFrame::CreateControls()
 void MainFrame::SetupSizers()
 {
 	//headlineText->Show(false);
-	inputField->Show(false);
-	addButton->Show(false);
+	//inputField->Show(false);
+	//addButton->Show(false);
 	checkListBox->Show(false);
 	clearButton->Show(false);
 
