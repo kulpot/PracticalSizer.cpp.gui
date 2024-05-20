@@ -1,4 +1,4 @@
 3
-task_a 0
-task_b 1
-task_c 1
+Task_A 0
+Task_B 0
+Task_C 0
