@@ -97,7 +97,7 @@ void MainFrame::SetupSizers()
 	//inputField->Show(false);
 	//addButton->Show(false);
 	//checkListBox->Show(false);
-	clearButton->Show(false);
+	//clearButton->Show(false);
 
 	wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
 	mainSizer->Add(headlineText, wxSizerFlags().CenterHorizontal());
