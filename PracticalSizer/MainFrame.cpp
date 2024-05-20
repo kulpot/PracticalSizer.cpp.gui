@@ -98,6 +98,8 @@ void MainFrame::SetupSizers()
 	addButton->Show(false);
 	checkListBox->Show(false);
 	clearButton->Show(false);
+
+	wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
 }
 
 void MainFrame::BindEventHandlers()
