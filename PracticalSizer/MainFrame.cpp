@@ -104,6 +104,7 @@ void MainFrame::SetupSizers()
 
 	wxBoxSizer* inputSizer = new wxBoxSizer(wxHORIZONTAL);
 	inputSizer->Add(inputField, wxSizerFlags().Proportion(1));
+	inputSizer->Add(addButton);
 
 	panel->SetSizer(mainSizer);
 	mainSizer->SetSizeHints(this);
