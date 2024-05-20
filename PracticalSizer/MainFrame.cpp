@@ -96,6 +96,7 @@ void MainFrame::SetupSizers()
 	headlineText->Show(false);
 	inputField->Show(false);
 	addButton->Show(false);
+	checkListBox->Show(false);
 }
 
 void MainFrame::BindEventHandlers()
