@@ -106,6 +106,8 @@ void MainFrame::SetupSizers()
 	inputSizer->Add(inputField, wxSizerFlags().Proportion(1));
 	inputSizer->Add(addButton);
 
+	mainSizer->Add(inputSizer);
+
 	panel->SetSizer(mainSizer);
 	mainSizer->SetSizeHints(this);
 }
