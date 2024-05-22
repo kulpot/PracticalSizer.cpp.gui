@@ -114,6 +114,8 @@ void MainFrame::SetupSizers()
 	mainSizer->AddSpacer(5);
 	mainSizer->Add(clearButton);
 
+	wxGridSizer* outerSizer = new wxGridSizer(1);
+
 	panel->SetSizer(mainSizer);
 	mainSizer->SetSizeHints(this);
 }
