@@ -117,7 +117,8 @@ void MainFrame::SetupSizers()
 	wxGridSizer* outerSizer = new wxGridSizer(1);
 	outerSizer->Add(mainSizer, wxSizerFlags().Border(wxALL, 25).Expand());
 
-	panel->SetSizer(mainSizer);
+	//panel->SetSizer(mainSizer);
+	panel->SetSizer(outerSizer);
 	mainSizer->SetSizeHints(this);
 }
 
