@@ -101,6 +101,7 @@ void MainFrame::SetupSizers()
 
 	wxBoxSizer* mainSizer = new wxBoxSizer(wxVERTICAL);
 	mainSizer->Add(headlineText, wxSizerFlags().CenterHorizontal());
+	mainSizer->AddSpacer(25);
 
 	wxBoxSizer* inputSizer = new wxBoxSizer(wxHORIZONTAL);
 	inputSizer->Add(inputField, wxSizerFlags().Proportion(1));
