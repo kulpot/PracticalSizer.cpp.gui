@@ -119,7 +119,8 @@ void MainFrame::SetupSizers()
 
 	//panel->SetSizer(mainSizer);
 	panel->SetSizer(outerSizer);
-	mainSizer->SetSizeHints(this);
+	//mainSizer->SetSizeHints(this);
+	outerSizer->SetSizeHints(this);
 }
 
 void MainFrame::BindEventHandlers()
